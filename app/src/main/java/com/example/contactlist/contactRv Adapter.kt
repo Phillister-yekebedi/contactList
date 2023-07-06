@@ -1,14 +1,9 @@
 package com.example.contactlist
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.contactlist.R.id.imageView
 import com.example.contactlist.databinding.ContactListItemBinding
-import kotlinx.coroutines.currentCoroutineContext
 
 class contactRvAdapter(var contactList: List<contactsData>):RecyclerView.Adapter<contactRvAdapter.ContactViewHolder>() {
     override fun onCreateViewHolder(
